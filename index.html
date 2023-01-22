@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="form-container">
+<form name="registerForm">
+    <label for="firstName">First Name *</label>
+    <input type="text" id="firstName" name="firstName" placeholder="John" required/>
+    <label for="lastName">Last Name *</label>
+    <input type="text" id="lastName" placeholder="Doe" required/>
+</form>
+</div>
+
+
+<div class="form-container">
+<form name="registerForm">
+    <label for="e-mail">E-mail address *</label>
+    <input type="text" id="e-mail" placeholder="john-doe@net.com" required/>
+    <p class="error-message"></p>
+</form>
+</div>
+<!--coment-->
+
+<div class="form-container">
+    <div class="radio-question">
+        <p>What sport are you participating in??</p>
+        <input class="radio-input" type="radio" value="FOOTBALL" /> FOOTBALL <br>
+      <p>
+        What is football? Football, also called association football or soccer, is a game involving two teams of 11 players who try to maneuver the ball into the other team’s goal without using their hands or arms. The team that scores more goals wins. Football is the world’s most popular ball game in numbers of participants and spectators.
+      </p><br>
+         <input class="radio-input" type="radio" name="media" value="BASKETBALL" /> BASKETBALL <br>
+      <p>basketball, Court game between two teams of five players. They score by tossing, or “shooting,” an inflated ball through a raised hoop, or “basket,” located in their opponent’s end of the court.</p><br>
+          <input class="radio-input" type="radio" name="media" value="TABLE TENNIS" /> TABLE TENNIS <br>
+      <p>table tennis, also called (trademark) Ping-Pong, ball game similar in principle to lawn tennis and played on a flat table divided into two equal courts by a net fixed across its width at the middle. The object is to hit the ball so that it goes over the net and bounces on the opponent’s half of the table in such a way that the opponent cannot reach it or return it correctly</p>
+     
+         <input class="radio-input" type="radio" name="media" value="BOARD GAMES" /> BOARD GAMES <br>
+      <p>A board game is a tabletop game that uses a defined set of rules and a number of varied game components, that are usually exclusively played on top of some sort of game board or boards. The game components can be pieces, cards, tiles, etc. that are moved around the board during game play.</p><br>
+    </div>
+</div>
+
+
+<div class="form-container">
+	<input class="button" type="submit" value="submit" name="submit" onClick="formValidation()" />
+</div>
+
+
+</body>
+
+</html>
